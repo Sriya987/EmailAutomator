@@ -1,0 +1,4 @@
+Email,Name,Invoice_no,Amount,Due_date,Reminder_date,Has_paid
+kotagiriwarpriya@gmail.com,Priya,INV-21-12-009,5,01-03-2025,01-02-2025,no
+sriyakotagiriwar@gmail.com,Sriya,INV-21-12-010,4,01-03-2025,01-02-2025,no
+aashrithamitta@gmail.com,Aashritha,INV-21-12-011,10,01-03-2025,01-02-2025,yes
