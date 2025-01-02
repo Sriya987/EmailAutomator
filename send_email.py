@@ -21,12 +21,12 @@ def send_email(subj, recv, name, due_date, invoice_no, amt):
     msg["From"] = formataddr(("Coding is Fun", sender_email))
     msg["To"] = recv
     msg.set_content(
-        f"Hi {name},\n"
-        f"I hope you are well.\n"
+        f"Hi {name},\n\n"
+        f"I hope this email finds you well.\n"
         f"I just wanted to drop you a quick note to remind you that {amt} USD in respect of our "
         f"invoice {invoice_no} is due for payment on {due_date}.\n"
-        "I would be really grateful if you could confirm that everything is on track for payment.\n"
-        "Best regards,\nSriya"
+        "I would be really grateful if you could confirm that everything is on track for payment.\n\n"
+        "Best regards,\nSriya."
     )
     try:
         server = smtplib.SMTP('smtp.gmail.com', 587)
